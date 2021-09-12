@@ -45,6 +45,13 @@ or get inspiration from Dribble: `https://dribbble.com/tags/tmdb`
 - In order for Netlify to always serve index.html file, you need to add a 
 `_redirects` file in public folder.  See [Netlify docs](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/?_ga=2.249985294.969834175.1629299695-714944149.1629299695).
 
+
+# Deployment
+
+The app has been deployed to Netlify as below:
+
+https://boring-galileo-dc314c.netlify.app/
+
 # Testing
 
 <table>
