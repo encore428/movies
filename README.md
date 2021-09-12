@@ -56,8 +56,8 @@ https://boring-galileo-dc314c.netlify.app/
 During the deployment, there were two additional tasks required just because of Netlify:
 
 1. CI=False, refer to [shoppingcart](https://github.com/encore428/shoppingcart).
-2. 
-3. Create file `_redirects` in `/public` folder (next to index.html), with this line `/* /index.html 200`.  Refer to 
+
+1. Create file `_redirects` in `/public` folder (next to index.html), with this line `/* /index.html 200`.  Refer to 
 this [article](https://ridbay.medium.com/react-routing-and-netlify-redirects-fd1f00eeee95).
 
 
