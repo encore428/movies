@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useAuth, LogoutButton } from "domains/auth";
 import { Button } from "components/button";
 
@@ -10,19 +11,17 @@ export const AppShell = ({ children }) => {
         <div className="px-4">
           <div className="flex justify-between items-center py-2 max-w-7xl mx-auto border-b border-gray-200">
             <nav className="flex items-center">
-              <a
-                href="/"
+              <Link to="/"
                 className="text-xl inline-block mr-4 font-bold text-pink-700 hover:text-pink-900"
               >
                 React Homework - day 4
-              </a>
+                </Link>
               <div className="flex items-center gap-4">
-                <a
-                  href="/movie"
+              <Link to="/movie"
                   className="text-sm font-medium text-gray-700 hover:text-gray-800"
                 >
                   Movies
-                </a>
+                </Link>
               </div>
             </nav>
             {status === "authenticated" ? (
@@ -31,11 +30,11 @@ export const AppShell = ({ children }) => {
                 <LogoutButton />
               </div>
             ) : (
-              <a href="/login">
+              <Link to="/login">
                 <Button variant="primary">
                 Login
                 </Button>
-              </a>
+              </Link>
             )}
           </div>
         </div>
