@@ -59,7 +59,7 @@ https://boring-galileo-dc314c.netlify.app/
    
    <tr><td colspan="3"> Begin the test for user name encore7</td></tr>
    
-   <tr><td>1.</td><td>Open the [URL](https://boring-galileo-dc314c.netlify.app/).</td>
+   <tr><td>1.</td><td>Open the [URL](https://boring-galileo-dc314c.netlify.app).</td>
        <td>See home page, and 5 movies, with title, release date, backdrop picture.</td></tr>
    <tr><td>2.</td><td>Click on any one movie</td>
        <td>URL changes to [~/movie/{movieId}](https://boring-galileo-dc314c.netlify.app/movie/{movieId}) where movieId is the id of the chosen movie, for which movie old title, title, release date. poster, overview, and reviews (no review at the moment) are shown.</td></tr>
