@@ -30,8 +30,8 @@ comment and the userId of the user, which can be retrieved from
 `https://<your-service>.herokuapp.com/docs/#/auth/getProfile`
 
 # Other requirements:
-1. You should have at least 3 tests.  (see [`src/components/button.test.jsx`](https://github.com/encore428/movies/blob/master/src/components/button.test.jsx), [`src/components/label.test.jsx`](https://github.com/encore428/movies/blob/master/src/components/label.test.jsx), [`src/domains/movie/components/movie-item.test.jsx`](https://github.com/encore428/movies/blob/master/movie/src/domains/components/movie-item.test.test.jsx).)
-
+1. You should have at least 3 tests.  (see [`src/components/button.test.jsx`](https://github.com/encore428/movies/blob/master/src/components/button.test.jsx), [`src/components/label.test.jsx`](https://github.com/encore428/movies/blob/master/src/components/label.test.jsx), [`src/domains/movie/components/movie-item.test.jsx`](https://github.com/encore428/movies/blob/master/src/domains/movie/components/movie-item.test.jsx).)
+ 
 1. The comment form should be validated.  (see `src/domains/movie/components/movie-details.jsx`.)
 
 1. The movie listing should have Next and Prev button to show more movies.  (See test No 28, 29, 30.)
