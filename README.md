@@ -30,13 +30,13 @@ comment and the userId of the user, which can be retrieved from
 `https://<your-service>.herokuapp.com/docs/#/auth/getProfile`
 
 # Other requirements:
-1. You should have at least 3 tests.  (see src/companents/button.test.jsx, src/companents/label.test.jsx, src/domains/movie/components/movie-item.test.jsx.)
+1. You should have at least 3 tests.  (see `src/companents/button.test.jsx`, `src/companents/label.test.jsx`, `src/domains/movie/components/movie-item.test.jsx`.)
 
-1. The comment form should be validated.  (see src/domains/movie/components/movie-details.jsx.)
+1. The comment form should be validated.  (see `src/domains/movie/components/movie-details.jsx`.)
 
 1. The movie listing should have Next and Prev button to show more movies.  (See test No 28, 29, 30.)
 
-1. You should deploy your application to Netlify and submit the URL together with your code.
+1. You should deploy your application to Netlify and submit the URL together with your code. (https://boring-galileo-dc314c.netlify.app/)
 
 1. There is no requirements on the actual design and look and field, you can design yourself 
 or get inspiration from Dribble: `https://dribbble.com/tags/tmdb`
