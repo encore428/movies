@@ -145,7 +145,7 @@ this [article](https://ridbay.medium.com/react-routing-and-netlify-redirects-fd1
        <td>The same movie details are shown, with the review posted by encore8 appearing with delete button.</td></tr>
    <tr><td>32.</td><td>Click Logout button.</td>
        <td>On the same movie page, review input form disappears, reviews by encore8 stays but without delete button.</td></tr>
-   <tr><td> [33.](#id33)</td><td>Change URL to https://boring-galileo-dc314c.netlify.app/login.</td>
+   <tr><td>33.</td><td id='id33'>Change URL to https://boring-galileo-dc314c.netlify.app/login.</td>
        <td>URL changes to https://boring-galileo-dc314c.netlify.app/login, at login screen.</td></tr>
    <tr><td>34.</td><td>Enter email encore8@gmail.com, password 12345678, click Login.</td>
        <td>URL changes to https://boring-galileo-dc314c.netlify.app/movie/{movieId} where movie is the one on screen before clicking Login.
