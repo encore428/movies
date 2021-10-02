@@ -2,7 +2,7 @@
 
 Create a new application using Create React App with the following pages:
 
-1. Login page at path `/login`.  See test No <a id="id33">33</a>.
+1. Login page at path `/login`.  See test No <a href="id33">33</a>.
 
 2. Register page at path `/register`.  (See test No 16.)
 
