@@ -2,19 +2,19 @@
 
 Create a new application using Create React App with the following pages:
 
-1. Login page at path `/login`.  See test No <a href="#id33">33</a>.
+1. Login page at path `/login`.  (See test No <a href="#id33">33</a>.)
 
-2. Register page at path `/register`.  (See test No 16.)
+2. Register page at path `/register`.  (See test No <a href="#id16">16</a>.)
 
-3. Home page: shows list of movies.  (See test No 26.)
+3. Home page: shows list of movies.  (See test No <a href="#id26">26</a>.)
 
-4. Movie details page at path `/movie/<movieId>`:  (See test No 31.)
+4. Movie details page at path `/movie/<movieId>`:  (See test No <a href="#id31">31</a>.)
 
-- Show the details and comments for the movie.  (See test No 22.)
+- Show the details and comments for the movie.  (See test No <a href="#id22">22</a>.)
 
-- Users that are logged in are allowed to add comment for the movie.  (See test No 33)
+- Users that are logged in are allowed to add comment for the movie.  (See test No <a href="#id33">33</a>.)
 
-5. Movie comment can be deleted by the user that created it.  (See test No 31, 32.)
+5. Movie comment can be deleted by the user that created it.  (See test No <a href="#id31">31</a>, <a href="#id32">32</a>.)
 
 # Notes:
 
@@ -34,7 +34,7 @@ comment and the userId of the user, which can be retrieved from
  
 1. The comment form should be validated.  (see [`src/domains/movie/components/movie-details.jsx`](https://github.com/encore428/movies/blob/master/src/domains/movie/components/movie-details.jsx).)
 
-1. The movie listing should have Next and Prev button to show more movies.  (See test No 28, 29, 30.)
+1. The movie listing should have Next and Prev button to show more movies.  (See test No <a href="#id28">28</a>, <a href="#id29">29</a>, <a href="#id30">30</a>.)
 
 1. You should deploy your application to Netlify and submit the URL together with your code. (https://boring-galileo-dc314c.netlify.app/)
 
@@ -103,7 +103,7 @@ this [article](https://ridbay.medium.com/react-routing-and-netlify-redirects-fd1
    <tr><td colspan="3"> Open another session for user name encore8</td></tr>
    
    <tr><th>No</th><th>Action</th><th>Expected results</th></tr>
-   <tr><td>16.</td><td>Open another browser, enter URL https://boring-galileo-dc314c.netlify.app/register</td>
+   <tr><td>16.</td><td id='id16'>Open another browser, enter URL https://boring-galileo-dc314c.netlify.app/register</td>
        <td>On register screen.</td></tr>
    <tr><td>17.</td><td>Enter encore7, encore7@gmail.com, abcdefgh, abcdefgh, click Register.</td>
        <td>Error message appears on top "Email encore7@gmail.com already registered"</td></tr>
@@ -119,7 +119,7 @@ this [article](https://ridbay.medium.com/react-routing-and-netlify-redirects-fd1
    <tr><td colspan="3"> switch to browser of encore7</td></tr>
    
    <tr><th>No</th><th>Action</th><th>Expected results</th></tr>
-   <tr><td>22.</td><td>Go to browser of encore7, refresh page.</td>
+   <tr><td>22.</td><td id='id22'>Go to browser of encore7, refresh page.</td>
        <td>Stay on the same movie page, two reviews are visible, only review by encore7 has delete button.</td></tr>
    <tr><td>23.</td><td>encore7 delete own review.</td>
        <td>Stay on the same movie page, review by encore7 disappears.</td></tr>
@@ -131,19 +131,19 @@ this [article](https://ridbay.medium.com/react-routing-and-netlify-redirects-fd1
        <td>On the same movie page, both reviews are still visible, only review by encore8 has delete button.</td></tr>
    <tr><td>25.</td><td>Refresh page.</td>
        <td>On the same movie page, reviews by encore7 disappears, review by encore8 re still visible and with delete button.</td></tr>
-   <tr><td>26.</td><td>Click "React Homework - day 4"</td>
+   <tr><td>26.</td><td id='id26'>Click "React Homework - day 4"</td>
        <td>URL changes to https://boring-galileo-dc314c.netlify.app/, 5 movies visible on screen.</td></tr>
    <tr><td>27.</td><td>click "Movies"</td>
        <td>URL changes to https://boring-galileo-dc314c.netlify.app/movie, another 5 movies visible on screen.</td></tr>
-   <tr><td>28.</td><td>click "Prev" button</td>
+   <tr><td>28.</td><td id='id28'>click "Prev" button</td>
        <td>Nothing happens.</td></tr>
-   <tr><td>29.</td><td>Click "Next" button</td>
+   <tr><td>29.</td><td id='id29'>Click "Next" button</td>
        <td>Another 5 movies visible on screen.</td></tr>
-   <tr><td>30.</td><td>Click "Prev" button.</td>
+   <tr><td>30.</td><td id='id30'>Click "Prev" button.</td>
        <td>Another 5 movies visible on screen.</td></tr>
-   <tr><td>31.</td><td>Change URL to https://boring-galileo-dc314c.netlify.app/movie/{movieId} where movieId is from the encore7.</td>
+   <tr><td>31.</td><td id='id31'>Change URL to https://boring-galileo-dc314c.netlify.app/movie/{movieId} where movieId is from the encore7.</td>
        <td>The same movie details are shown, with the review posted by encore8 appearing with delete button.</td></tr>
-   <tr><td>32.</td><td>Click Logout button.</td>
+   <tr><td>32.</td><td id='id32'>Click Logout button.</td>
        <td>On the same movie page, review input form disappears, reviews by encore8 stays but without delete button.</td></tr>
    <tr><td>33.</td><td id='id33'>Change URL to https://boring-galileo-dc314c.netlify.app/login.</td>
        <td>URL changes to https://boring-galileo-dc314c.netlify.app/login, at login screen.</td></tr>
