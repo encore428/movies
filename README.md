@@ -130,7 +130,7 @@ this [article](https://ridbay.medium.com/react-routing-and-netlify-redirects-fd1
    <tr><td>24.</td><td>Go to browser of encore8.</td>
        <td>On the same movie page, both reviews are still visible, only review by encore8 has delete button.</td></tr>
    <tr><td>25.</td><td>Refresh page.</td>
-       <td>On the same movie page, reviews by encore7 disappears, review by encore8 re still visible and with delete button.</td></tr>
+       <td>On the same movie page, reviews by encore7 disappears, review by encore8 are still visible and with delete button.</td></tr>
    <tr><td>26.</td><td id='id26'>Click "React Homework - day 4"</td>
        <td>URL changes to https://boring-galileo-dc314c.netlify.app/, 5 movies visible on screen.</td></tr>
    <tr><td>27.</td><td>click "Movies"</td>
